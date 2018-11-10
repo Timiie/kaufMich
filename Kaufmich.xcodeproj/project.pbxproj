@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E40A18C219737D100F50EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40A18B219737D100F50EA3 /* AppDelegate.swift */; };
+		1E40A18F219737D100F50EA3 /* Kaufmich.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E40A18D219737D100F50EA3 /* Kaufmich.xcdatamodeld */; };
+		1E40A191219737D100F50EA3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40A190219737D100F50EA3 /* MasterViewController.swift */; };
+		1E40A193219737D100F50EA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40A192219737D100F50EA3 /* DetailViewController.swift */; };
+		1E40A196219737D100F50EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E40A194219737D100F50EA3 /* Main.storyboard */; };
+		1E40A198219737D300F50EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E40A197219737D300F50EA3 /* Assets.xcassets */; };
+		1E40A19B219737D300F50EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E40A199219737D300F50EA3 /* LaunchScreen.storyboard */; };
+		1E40A1A6219737D300F50EA3 /* KaufmichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40A1A5219737D300F50EA3 /* KaufmichTests.swift */; };
+		1E40A1B1219737D300F50EA3 /* KaufmichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40A1B0219737D300F50EA3 /* KaufmichUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E40A1A2219737D300F50EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E40A180219737D100F50EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E40A187219737D100F50EA3;
+			remoteInfo = Kaufmich;
+		};
+		1E40A1AD219737D300F50EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E40A180219737D100F50EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E40A187219737D100F50EA3;
+			remoteInfo = Kaufmich;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E40A188219737D100F50EA3 /* Kaufmich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaufmich.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E40A18B219737D100F50EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E40A18E219737D100F50EA3 /* Kaufmich.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kaufmich.xcdatamodel; sourceTree = "<group>"; };
+		1E40A190219737D100F50EA3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		1E40A192219737D100F50EA3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1E40A195219737D100F50EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E40A197219737D300F50EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E40A19A219737D300F50EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E40A19C219737D300F50EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E40A1A1219737D300F50EA3 /* KaufmichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaufmichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E40A1A5219737D300F50EA3 /* KaufmichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaufmichTests.swift; sourceTree = "<group>"; };
+		1E40A1A7219737D300F50EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E40A1AC219737D300F50EA3 /* KaufmichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaufmichUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E40A1B0219737D300F50EA3 /* KaufmichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaufmichUITests.swift; sourceTree = "<group>"; };
+		1E40A1B2219737D300F50EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E40A185219737D100F50EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E40A19E219737D300F50EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E40A1A9219737D300F50EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E40A17F219737D100F50EA3 = {
+			isa = PBXGroup;
+			children = (
+				1E40A18A219737D100F50EA3 /* Kaufmich */,
+				1E40A1A4219737D300F50EA3 /* KaufmichTests */,
+				1E40A1AF219737D300F50EA3 /* KaufmichUITests */,
+				1E40A189219737D100F50EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E40A189219737D100F50EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E40A188219737D100F50EA3 /* Kaufmich.app */,
+				1E40A1A1219737D300F50EA3 /* KaufmichTests.xctest */,
+				1E40A1AC219737D300F50EA3 /* KaufmichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E40A18A219737D100F50EA3 /* Kaufmich */ = {
+			isa = PBXGroup;
+			children = (
+				1E40A18B219737D100F50EA3 /* AppDelegate.swift */,
+				1E40A190219737D100F50EA3 /* MasterViewController.swift */,
+				1E40A192219737D100F50EA3 /* DetailViewController.swift */,
+				1E40A194219737D100F50EA3 /* Main.storyboard */,
+				1E40A197219737D300F50EA3 /* Assets.xcassets */,
+				1E40A199219737D300F50EA3 /* LaunchScreen.storyboard */,
+				1E40A19C219737D300F50EA3 /* Info.plist */,
+				1E40A18D219737D100F50EA3 /* Kaufmich.xcdatamodeld */,
+			);
+			path = Kaufmich;
+			sourceTree = "<group>";
+		};
+		1E40A1A4219737D300F50EA3 /* KaufmichTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E40A1A5219737D300F50EA3 /* KaufmichTests.swift */,
+				1E40A1A7219737D300F50EA3 /* Info.plist */,
+			);
+			path = KaufmichTests;
+			sourceTree = "<group>";
+		};
+		1E40A1AF219737D300F50EA3 /* KaufmichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E40A1B0219737D300F50EA3 /* KaufmichUITests.swift */,
+				1E40A1B2219737D300F50EA3 /* Info.plist */,
+			);
+			path = KaufmichUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E40A187219737D100F50EA3 /* Kaufmich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E40A1B5219737D300F50EA3 /* Build configuration list for PBXNativeTarget "Kaufmich" */;
+			buildPhases = (
+				1E40A184219737D100F50EA3 /* Sources */,
+				1E40A185219737D100F50EA3 /* Frameworks */,
+				1E40A186219737D100F50EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaufmich;
+			productName = Kaufmich;
+			productReference = 1E40A188219737D100F50EA3 /* Kaufmich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E40A1A0219737D300F50EA3 /* KaufmichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E40A1B8219737D300F50EA3 /* Build configuration list for PBXNativeTarget "KaufmichTests" */;
+			buildPhases = (
+				1E40A19D219737D300F50EA3 /* Sources */,
+				1E40A19E219737D300F50EA3 /* Frameworks */,
+				1E40A19F219737D300F50EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E40A1A3219737D300F50EA3 /* PBXTargetDependency */,
+			);
+			name = KaufmichTests;
+			productName = KaufmichTests;
+			productReference = 1E40A1A1219737D300F50EA3 /* KaufmichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E40A1AB219737D300F50EA3 /* KaufmichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E40A1BB219737D300F50EA3 /* Build configuration list for PBXNativeTarget "KaufmichUITests" */;
+			buildPhases = (
+				1E40A1A8219737D300F50EA3 /* Sources */,
+				1E40A1A9219737D300F50EA3 /* Frameworks */,
+				1E40A1AA219737D300F50EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E40A1AE219737D300F50EA3 /* PBXTargetDependency */,
+			);
+			name = KaufmichUITests;
+			productName = KaufmichUITests;
+			productReference = 1E40A1AC219737D300F50EA3 /* KaufmichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E40A180219737D100F50EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Martin und Tim Lukas";
+				TargetAttributes = {
+					1E40A187219737D100F50EA3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1E40A1A0219737D300F50EA3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1E40A187219737D100F50EA3;
+					};
+					1E40A1AB219737D300F50EA3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1E40A187219737D100F50EA3;
+					};
+				};
+			};
+			buildConfigurationList = 1E40A183219737D100F50EA3 /* Build configuration list for PBXProject "Kaufmich" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E40A17F219737D100F50EA3;
+			productRefGroup = 1E40A189219737D100F50EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E40A187219737D100F50EA3 /* Kaufmich */,
+				1E40A1A0219737D300F50EA3 /* KaufmichTests */,
+				1E40A1AB219737D300F50EA3 /* KaufmichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E40A186219737D100F50EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E40A19B219737D300F50EA3 /* LaunchScreen.storyboard in Resources */,
+				1E40A198219737D300F50EA3 /* Assets.xcassets in Resources */,
+				1E40A196219737D100F50EA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E40A19F219737D300F50EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E40A1AA219737D300F50EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E40A184219737D100F50EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E40A18C219737D100F50EA3 /* AppDelegate.swift in Sources */,
+				1E40A18F219737D100F50EA3 /* Kaufmich.xcdatamodeld in Sources */,
+				1E40A191219737D100F50EA3 /* MasterViewController.swift in Sources */,
+				1E40A193219737D100F50EA3 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E40A19D219737D300F50EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E40A1A6219737D300F50EA3 /* KaufmichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E40A1A8219737D300F50EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E40A1B1219737D300F50EA3 /* KaufmichUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E40A1A3219737D300F50EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E40A187219737D100F50EA3 /* Kaufmich */;
+			targetProxy = 1E40A1A2219737D300F50EA3 /* PBXContainerItemProxy */;
+		};
+		1E40A1AE219737D300F50EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E40A187219737D100F50EA3 /* Kaufmich */;
+			targetProxy = 1E40A1AD219737D300F50EA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E40A194219737D100F50EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E40A195219737D100F50EA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E40A199219737D300F50EA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E40A19A219737D300F50EA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E40A1B3219737D300F50EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E40A1B4219737D300F50EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E40A1B6219737D300F50EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kaufmich/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukas.Kaufmich;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E40A1B7219737D300F50EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kaufmich/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukas.Kaufmich;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E40A1B9219737D300F50EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaufmichTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukas.KaufmichTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaufmich.app/Kaufmich";
+			};
+			name = Debug;
+		};
+		1E40A1BA219737D300F50EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaufmichTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukas.KaufmichTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaufmich.app/Kaufmich";
+			};
+			name = Release;
+		};
+		1E40A1BC219737D300F50EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaufmichUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukas.KaufmichUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaufmich;
+			};
+			name = Debug;
+		};
+		1E40A1BD219737D300F50EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaufmichUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukas.KaufmichUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaufmich;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E40A183219737D100F50EA3 /* Build configuration list for PBXProject "Kaufmich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E40A1B3219737D300F50EA3 /* Debug */,
+				1E40A1B4219737D300F50EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E40A1B5219737D300F50EA3 /* Build configuration list for PBXNativeTarget "Kaufmich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E40A1B6219737D300F50EA3 /* Debug */,
+				1E40A1B7219737D300F50EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E40A1B8219737D300F50EA3 /* Build configuration list for PBXNativeTarget "KaufmichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E40A1B9219737D300F50EA3 /* Debug */,
+				1E40A1BA219737D300F50EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E40A1BB219737D300F50EA3 /* Build configuration list for PBXNativeTarget "KaufmichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E40A1BC219737D300F50EA3 /* Debug */,
+				1E40A1BD219737D300F50EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E40A18D219737D100F50EA3 /* Kaufmich.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E40A18E219737D100F50EA3 /* Kaufmich.xcdatamodel */,
+			);
+			currentVersion = 1E40A18E219737D100F50EA3 /* Kaufmich.xcdatamodel */;
+			path = Kaufmich.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E40A180219737D100F50EA3 /* Project object */;
+}
